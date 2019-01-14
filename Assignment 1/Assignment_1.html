@@ -267,6 +267,7 @@ length(toThirty)</code></pre>
 <pre class="r"><code>cVector = c(&quot;geography&quot;, &quot;information&quot;, &quot;systems&quot;)
 length(cVector)</code></pre>
 <pre><code>## [1] 3</code></pre>
+<p>An error occurs when using sum() on the character vector because strings and characters cannot be added/summed together.</p>
 <pre class="r"><code>seqX = seq(1, 5)
 seqY = seq(6, 10)
 xAddY = seqX + seqY
@@ -292,12 +293,12 @@ dataFrame</code></pre>
 <h1>Loading the Data</h1>
 <p>This is how to load data into R and how to convert it.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
-<pre><code>## -- Attaching packages ----------------------------------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
+<pre><code>## -- Attaching packages ------------------------------------------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
 <pre><code>## v ggplot2 3.1.0     v purrr   0.2.5
 ## v tibble  1.4.2     v dplyr   0.7.8
 ## v tidyr   0.8.2     v stringr 1.3.1
 ## v readr   1.3.1     v forcats 0.3.0</code></pre>
-<pre><code>## -- Conflicts -------------------------------------------------------------------------------------- tidyverse_conflicts() --
+<pre><code>## -- Conflicts ---------------------------------------------------------------------------------------------- tidyverse_conflicts() --
 ## x dplyr::filter() masks stats::filter()
 ## x dplyr::lag()    masks stats::lag()</code></pre>
 <pre class="r"><code>object1=read.csv(&quot;China_EO_49to17.csv&quot;)

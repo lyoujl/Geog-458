@@ -50,7 +50,10 @@ sum(toThirty)
 
 cVector = c("geography", "information", "systems")
 length(cVector)
+```
+An error occurs when using sum() on the character vector because strings and characters cannot be added/summed together.
 
+```{r}
 seqX = seq(1, 5)
 seqY = seq(6, 10)
 xAddY = seqX + seqY
